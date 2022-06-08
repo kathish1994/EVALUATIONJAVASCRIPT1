@@ -1,10 +1,7 @@
-let names=["ram",
-"kumar",
-"raj",
-"alex",
-"gokul"
-];
-let result=function(item,index,object){
-console.log(item);
-}
-names.forEach(result);
+"use strict";
+const names = ["ram", "kumar", "raj", "alex", "gokul"];
+const result = function (item, index, object) {
+  return index;
+};
+const variable = names.forEach(result);
+console.log(variable);

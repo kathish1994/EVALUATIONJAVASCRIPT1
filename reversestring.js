@@ -1,10 +1,10 @@
-function revStr(str){
-    var rev="";
-var len=str.length;
-for(var i=len-1;i>=0;i--){
-
-    rev+=str[i];
+"use strict";
+function reverseString(str) {
+  let rev = "";
+  let len = str.length;
+  for (let i = len - 1; i >= 0; i--) {
+    rev += str[i];
+  }
+  return rev;
 }
-return rev;
-}
-console.log(revStr("Reverse"));
+console.log(reverseString("Reverse"));
